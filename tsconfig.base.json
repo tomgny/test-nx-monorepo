@@ -20,7 +20,8 @@
       ],
       "@test-nx-monorepo/my-non-buildable-lib": [
         "libs/my-non-buildable-lib/src/index.ts"
-      ]
+      ],
+      "@test/generated-using-ui": ["libs/generated-using-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
