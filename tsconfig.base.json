@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@test-nx-monorepo/my-buildable-lib": [
+        "libs/my-buildable-lib/src/index.ts"
+      ],
       "@test-nx-monorepo/my-non-buildable-lib": [
         "libs/my-non-buildable-lib/src/index.ts"
       ]
